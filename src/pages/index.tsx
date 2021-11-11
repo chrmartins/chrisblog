@@ -15,13 +15,16 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Christian Martins</h1>
-        <h2>Desenvolvedor Front-end</h2>
-        <Image
-          src={myAvatar}
-          alt="Meu avatar"
-          width={200}
-          height={200}
-        />
+        <h2 className={styles.role}>Desenvolvedor Front-end</h2>
+        <div className={styles.circle}>
+          <Image
+            className="avatar"
+            src={myAvatar}
+            alt="Meu avatar"
+            width={150}
+            height={150}
+          />
+        </div>
       </main>
     </div>
   );

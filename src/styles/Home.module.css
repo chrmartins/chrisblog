@@ -20,9 +20,30 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 6rem;
-  color: #062646;
+  font-size: 3rem;
+  color: #aaa;
 }
+
+.role {
+  font-size: 1.5rem;
+  color: #aaa;
+}
+
+.circle {
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+
+    .avatar {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+}
+
 
 @media (max-width: 600px) {
   .grid {
